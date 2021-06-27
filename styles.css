@@ -1,0 +1,160 @@
+/*    colores
+fondo:rgb(255, 255, 255) / white
+subtitulos y demas:rgb(43, 48, 40)
+morado-menu y mas: rgb(225, 0, 255)
+gris-fondos:rgba(128, 128, 128, 0.548)
+*/
+
+body {
+    width: auto;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    font-family:sans-serif;
+
+}
+/* imagenes*/
+.seccion-1{
+    position: fixed;
+    bottom: 780px;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+/**********/
+hr{
+    height: 3px;
+    width: auto;
+    background-color: rgb(143, 227, 217);
+    border: none;
+    border-radius: 20px;
+}
+/**********/
+/* imagenes*/
+.titulo-imagen{
+    display:block;
+    margin: auto;
+    padding-left:810px;
+    padding-right:810px;
+    padding-top: 50px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.imagen-vsc{
+    float: right;
+    padding: 10px;
+}
+.imagen-sublime{
+    float: left;
+    padding: 10px;
+}
+.img-boton-volver{
+    display:block;
+    margin: auto;  
+    align-content: center;
+
+}
+.vsc-logo{
+    float: right;
+    padding: 10px;
+}
+.sublime-logo-2{
+    float: left;
+    padding: 10px;
+}
+.atom-logo{
+    float: right;
+    padding: 10px;
+}
+.img-bordes{
+    padding: 33px;
+}
+/**********/
+
+
+/*Titulos*/
+h1{
+    text-align: center;
+    color: rgb(43, 48, 40);
+}
+/**********/
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(119, 187, 181);
+}
+
+
+
+/* texto*/
+.color-morado{
+color:rgb(225, 0, 255) ;
+}
+.texto-derecha{
+    text-align: right;
+    padding-right: 20px;
+}
+
+/**********/
+
+
+/*LINK/VINCULOS*/
+
+/**************/
+
+/*-----botones-----*/
+.volver-boton{
+background-color:#8FE3D9 ;
+color: black;
+border: black 2px;
+border-radius: 200px;
+font-size:xx-large;
+padding: 5px;
+font-family: sans-serif;
+text-align: center;
+width: 50px;
+position: fixed;
+bottom: 5px;
+right: 15px;
+text-decoration: none;
+}
+/**********/
+
+
+/*-----MENU-----*/
+.menu-titulo{
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    color:rgb(43, 48, 40);
+
+}
+.menu{
+list-style: none;
+padding: 0px;
+width: 90%;
+max-width: 395px;
+margin: auto;
+
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background:rgba(126, 126, 126, 0.233);
+    color: rgba(0, 0, 0, 0.548);
+    border-radius: 20px;
+   
+}
+/*---------------------------------------------*/ 
